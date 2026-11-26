@@ -18,7 +18,7 @@ logo_image = driver.find_element(By.CSS_SELECTOR, ".logo-image")
 # Verifica que la imagen del logotipo de Urban Routes tenga el valor esperado en su atributo alt: "Urban".
 
 # Cierra el navegador y finaliza la sesión de WebDriver
-driver.close()
+driver.quit()
 
 
 
