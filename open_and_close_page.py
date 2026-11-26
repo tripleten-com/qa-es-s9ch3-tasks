@@ -4,10 +4,9 @@ driver = webdriver.Chrome()
 driver.maximize_window()
 
 # Abre la página de inicio de Urban Routes
-driver...
 
-# Comprueba que la URL contenga tripleten-services.com
-assert ...
+# Obtén la URL actual
 
-# Cierra el navegador
-driver...
+# Comprueba que contenga "tripleten-services.com"
+
+# Cierra el navegador y finaliza la sesión
